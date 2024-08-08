@@ -1,7 +1,7 @@
 # SogetiHomeAssignment : UI
-This repository contains UI tests for requested scenarios.
+This repository contains UI tests for requested scenarios. 
 
-Prerequisite: Node.js should installed on your system for both UI and API tests to be run
+**Prerequisite:** Node.js should installed on your system for both UI and API tests to be run
 
 **Technology Stack:**
 - Windows64 OS
@@ -27,7 +27,7 @@ Prerequisite: Node.js should installed on your system for both UI and API tests 
     3. npx cypress run
 
 # SogetiHomeAssignment : API
-For API testing I used POSTMAN as tests were pretty straight forward.
+For API testing I used POSTMAN as tests were pretty straight forward. More info can be found collection overview.
 I have kept these tests on public collection [here](https://www.postman.com/raginiyerawar/workspace/public-workspace-raginiyerawar/collection/12711521-45a134c6-df09-4133-bcb6-7dfb2fcb3910?action=share&creator=12711521)
 and test file [here](https://drive.google.com/drive/folders/1XPWorQMSc_SrwWjL7rM99ZbMjug6ZVuq?usp=sharing)
 
