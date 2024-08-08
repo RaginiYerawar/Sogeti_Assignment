@@ -2,6 +2,7 @@
 This repository contains UI tests for requested scenarios. 
 
 **Prerequisite:** Node.js should installed on your system for both UI and API tests to be run
+**Note:** Tets Case 2 cannot be fully automated because of captcha involved in submiting the form. The primary purpose of CAPTCHA is to differentiate between human users and automated scripts. Workaround for this can be disabling captcha in test environment or bypassing captcha in some cases.
 
 **Technology Stack:**
 - Windows64 OS
