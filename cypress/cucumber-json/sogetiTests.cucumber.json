@@ -1,0 +1,173 @@
+[
+  {
+    "description": "    This is the feature file for Sogeti test scenarios",
+    "keyword": "Feature",
+    "name": "Sogeti - Coding Challenge",
+    "line": 1,
+    "id": "sogeti---coding-challenge",
+    "tags": [],
+    "uri": "sogetiTests.feature",
+    "elements": [
+      {
+        "id": "sogeti---coding-challenge;verify-'automation-screen-and-automation-text'-is-displayed-and-services-and-automation-are-selected.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify 'Automation screen and Automation text' is displayed and Services and Automation are selected.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User hover over Services and click on automation link",
+            "result": {
+              "status": "passed",
+              "duration": 6426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User lands on Automation page with heading 'Automation'",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Hover over again on Services link, Services and Automation are selected",
+            "result": {
+              "status": "passed",
+              "duration": 316000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sogeti---coding-challenge;verify-contact-form-submission-on-automation-page.",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify Contact Form Submission on Automation page.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User is on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 6924000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User hover over Services and click on automation link",
+            "result": {
+              "status": "passed",
+              "duration": 4172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User scrolls down to the Contact us Form and fill all the fields with Random Generated Data",
+            "result": {
+              "status": "passed",
+              "duration": 3261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User checks I agree checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User click on Submit button",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "The form is submitted and Thank you message is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sogeti---coding-challenge;verify-country-specific-links-are-working-in-worldwide-dropdown.",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify country specific links are working in Worldwide dropdown.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "User is on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User clicks on Worldwide dropdown link in page header to see Country specific Sogeti links",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "All the country specific Sogeti links are working properly",
+            "result": {
+              "status": "passed",
+              "duration": 8443000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
