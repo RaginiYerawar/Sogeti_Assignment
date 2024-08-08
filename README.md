@@ -41,7 +41,7 @@ and test file [here](https://drive.google.com/drive/folders/1XPWorQMSc_SrwWjL7rM
       - Run the collection
 
     2. Through comand line using newman
-      - Download collection from [here](https://drive.google.com/drive/folders/1XPWorQMSc_SrwWjL7rM99ZbMjug6ZVuq?usp=sharing)
+      - Download collection from https://drive.google.com/drive/folders/1XPWorQMSc_SrwWjL7rM99ZbMjug6ZVuq?usp=sharing
       - Open cmd in the downloaded collection and testData directory and run command:
         - npm install -g newman
         - newman run "API Tests Sogeti.postman_collection.json" -d test_data.csv
