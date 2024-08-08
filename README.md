@@ -29,7 +29,7 @@ Prerequisite: Node.js should installed on your system for both UI and API tests 
 # SogetiHomeAssignment : API
 For API testing I used POSTMAN as tests were pretty straight forward.
 I have kept these tests on public collection [here](https://www.postman.com/raginiyerawar/workspace/public-workspace-raginiyerawar/collection/12711521-45a134c6-df09-4133-bcb6-7dfb2fcb3910?action=share&creator=12711521)
-and test file [here](https://drive.google.com/file/d/1pKHo592Cm29Rdv1BJBjkmKKqJI61iUlH/view?usp=sharing)
+and test file [here](https://drive.google.com/drive/folders/1XPWorQMSc_SrwWjL7rM99ZbMjug6ZVuq?usp=sharing)
 
 **How to Run:**
 
@@ -41,7 +41,7 @@ and test file [here](https://drive.google.com/file/d/1pKHo592Cm29Rdv1BJBjkmKKqJI
       - Run the collection
 
     2. Through comand line using newman
-      - Download collection from [here]()
+      - Download collection from [here](https://drive.google.com/drive/folders/1XPWorQMSc_SrwWjL7rM99ZbMjug6ZVuq?usp=sharing)
       - Open cmd in the downloaded collection and testData directory and run command:
         - npm install -g newman
         - newman run "API Tests Sogeti.postman_collection.json" -d test_data.csv
