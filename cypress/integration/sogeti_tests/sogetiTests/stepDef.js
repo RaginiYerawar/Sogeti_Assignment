@@ -38,6 +38,9 @@ When('User checks I agree checkbox', () => {
 })
 
 When('User click on Submit button', () => {
+    //This step and next step cannot be automated because captcha needs to be accepted to click on submit button
+    //Captcha feature is made to avoid scripting/automating/bot
+    //Captcha can be disabled in test environment to fully automate this test case 
 
 })
 
